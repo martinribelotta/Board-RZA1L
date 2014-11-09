@@ -23,4 +23,4 @@ Top view
 
 Bottom view
 
-![Bottom](doc/BoardRZA1-bottom.png)
+![Bottom](doc/BoardRZA1-bot.png)
