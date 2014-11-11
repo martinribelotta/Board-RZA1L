@@ -1,4 +1,4 @@
-update=mar 04 nov 2014 01:10:38 ART
+update=dom 09 nov 2014 14:46:47 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -67,3 +67,5 @@ LibName33=osc_4pin
 LibName34=n25qxxx
 LibName35=AS4C16M16S
 LibName36=con-microsd
+LibName37=ba3259hfp
+LibName38=bu42xx

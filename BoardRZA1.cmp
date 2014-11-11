@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 08 nov 2014 14:42:46 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = dom 09 nov 2014 15:07:11 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -323,9 +323,58 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5458C1F6;
+TimeStamp = /545FB252;
 Reference = C46;
+ValeurCmp = 1u;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54602691;
+Reference = C47;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5460328C;
+Reference = C48;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546032FC;
+Reference = C49;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FD4A5;
+Reference = C50;
+ValeurCmp = 1u;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458C1F6;
+Reference = C51;
 ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FC6C8;
+Reference = C52;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FBDC1;
+Reference = C53;
+ValeurCmp = 1u;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
@@ -348,6 +397,13 @@ TimeStamp = /54587827;
 Reference = CON3;
 ValeurCmp = con-microSD;
 IdModule  = microsd:microSD;
+EndCmp
+
+BeginCmp
+TimeStamp = /54604827;
+Reference = CON4;
+ValeurCmp = BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
 EndCmp
 
 BeginCmp
@@ -533,10 +589,38 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5458A81A;
+TimeStamp = /545FF22E;
 Reference = R17;
+ValeurCmp = 1K;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FE304;
+Reference = R18;
+ValeurCmp = 2K1;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458A81A;
+Reference = R19;
 ValeurCmp = 10k;
 IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FE0F1;
+Reference = R20;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FB343;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = Discret:SW_PUSH-12mm;
 EndCmp
 
 BeginCmp
@@ -572,6 +656,20 @@ TimeStamp = /54583B31;
 Reference = U5;
 ValeurCmp = AS4C16M16S;
 IdModule  = TSOP_II_54:TSOP_II_54;
+EndCmp
+
+BeginCmp
+TimeStamp = /545F9611;
+Reference = U6;
+ValeurCmp = BA3259HFP;
+IdModule  = Rohm:Rohm-HRP5;
+EndCmp
+
+BeginCmp
+TimeStamp = /545FACCB;
+Reference = U7;
+ValeurCmp = BU42xx;
+IdModule  = Rohm:SSOP-5;
 EndCmp
 
 BeginCmp

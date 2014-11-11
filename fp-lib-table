@@ -1,7 +1,8 @@
 (fp_lib_table
-  (lib (name OSC_4PIN)(type KiCad)(uri $KIPRJMOD)(options "")(descr ""))
+  (lib (name OSC_4PIN)(type KiCad)(uri $KIPRJMOD/OSC_4PIN.pretty)(options "")(descr ""))
   (lib (name arduino_shields)(type Legacy)(uri $KIPRJMOD/arduino_shields.mod)(options "")(descr ""))
   (lib (name TSOP_II_54)(type Legacy)(uri $KIPRJMOD/TSOP_II_54.mod)(options "")(descr ""))
   (lib (name microsd)(type KiCad)(uri $KIPRJMOD/microsd.pretty)(options "")(descr ""))
   (lib (name smd_qfp)(type Legacy)(uri $KIPRJMOD/oaa_smd_qfp.mod)(options "")(descr ""))
+  (lib (name Rohm)(type KiCad)(uri $KIPRJMOD/Rohm.pretty)(options "")(descr ""))
 )
