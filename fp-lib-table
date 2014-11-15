@@ -5,4 +5,5 @@
   (lib (name microsd)(type KiCad)(uri $KIPRJMOD/microsd.pretty)(options "")(descr ""))
   (lib (name smd_qfp)(type Legacy)(uri $KIPRJMOD/oaa_smd_qfp.mod)(options "")(descr ""))
   (lib (name Rohm)(type KiCad)(uri $KIPRJMOD/Rohm.pretty)(options "")(descr ""))
+  (lib (name PushButton)(type KiCad)(uri $KIPRJMOD/PushButton.pretty)(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-update=dom 09 nov 2014 14:46:47 ART
+update=jue 13 nov 2014 23:59:59 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -69,3 +69,5 @@ LibName35=AS4C16M16S
 LibName36=con-microsd
 LibName37=ba3259hfp
 LibName38=bu42xx
+LibName39=KSZ8041MLL
+LibName40=hr911105a

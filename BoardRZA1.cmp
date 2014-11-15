@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = dom 09 nov 2014 15:07:11 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 15 nov 2014 15:03:23 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -379,6 +379,104 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /546458FB;
+Reference = C54;
+ValeurCmp = 22u;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54644E5E;
+Reference = C55;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54645502;
+Reference = C56;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546457C6;
+Reference = C57;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546414EF;
+Reference = C58;
+ValeurCmp = 100p;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54645859;
+Reference = C59;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464A6AD;
+Reference = C60;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5464A61E;
+Reference = C61;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54648942;
+Reference = C62;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54650708;
+Reference = C63;
+ValeurCmp = 22u;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54679DD0;
+Reference = C64;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5467A590;
+Reference = C65;
+ValeurCmp = 100n;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5466FE7E;
+Reference = C66;
+ValeurCmp = 22p;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5466FA33;
+Reference = C67;
+ValeurCmp = 22p;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5457BFFF;
 Reference = CON1;
 ValeurCmp = USB-MINI-B;
@@ -404,6 +502,13 @@ TimeStamp = /54604827;
 Reference = CON4;
 ValeurCmp = BARREL_JACK;
 IdModule  = Connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5466BBA4;
+Reference = J1;
+ValeurCmp = HR911105A;
+IdModule  = RJ45:RJ45_Pulse_J403-A;
 EndCmp
 
 BeginCmp
@@ -465,6 +570,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5453B93A;
 Reference = L9;
+ValeurCmp = BLM18PG600;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54674E42;
+Reference = L10;
 ValeurCmp = BLM18PG600;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
@@ -617,10 +729,157 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5463FF7E;
+Reference = R21;
+ValeurCmp = 6.49k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463CBC2;
+Reference = R22;
+ValeurCmp = 4K7;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54637004;
+Reference = R23;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463700A;
+Reference = R24;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54636BC3;
+Reference = R25;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546358F6;
+Reference = R26;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546360E1;
+Reference = R27;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5463615B;
+Reference = R28;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54636561;
+Reference = R29;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546365DD;
+Reference = R30;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54636660;
+Reference = R31;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546366DC;
+Reference = R32;
+ValeurCmp = 33R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54637343;
+Reference = R33;
+ValeurCmp = 4K7;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54685243;
+Reference = R34;
+ValeurCmp = 4K7;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54688777;
+Reference = R35;
+ValeurCmp = 4K7;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54684A41;
+Reference = R36;
+ValeurCmp = 220R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54688771;
+Reference = R37;
+ValeurCmp = 220R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54678448;
+Reference = R38;
+ValeurCmp = 49.9;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54679455;
+Reference = R39;
+ValeurCmp = 49.9;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546794E9;
+Reference = R40;
+ValeurCmp = 49.9;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54679598;
+Reference = R41;
+ValeurCmp = 49.9;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /545FB343;
 Reference = SW1;
 ValeurCmp = RESET;
-IdModule  = Discret:SW_PUSH-12mm;
+IdModule  = PushButton:RigthAnglePush;
 EndCmp
 
 BeginCmp
@@ -634,7 +893,7 @@ BeginCmp
 TimeStamp = /54553526;
 Reference = U2;
 ValeurCmp = OSC_4PIN;
-IdModule  = OSC_4PIN:OSC_4PIN;
+IdModule  = OSC_4PIN:OSC_2x2p5;
 EndCmp
 
 BeginCmp
@@ -673,10 +932,24 @@ IdModule  = Rohm:SSOP-5;
 EndCmp
 
 BeginCmp
+TimeStamp = /5462F74D;
+Reference = U8;
+ValeurCmp = KSZ8041MLL;
+IdModule  = smd_qfp:LQFP48-M05;
+EndCmp
+
+BeginCmp
 TimeStamp = /54558A45;
 Reference = X1;
 ValeurCmp = 32.768k;
 IdModule  = Crystals:Crystal_Round_Vertical_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5466F768;
+Reference = X2;
+ValeurCmp = 20MHz;
+IdModule  = Crystals:Crystal_HC49-SD_SMD;
 EndCmp
 
 EndListe

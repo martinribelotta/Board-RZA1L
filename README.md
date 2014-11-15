@@ -9,8 +9,7 @@ Hardware
  - **CPU**: RZ/A1L 208LQFP
  - **RAM**: 32/64M sdram
  - **Flash**: 16/32M QSPI FLASH
- - **Ethernet**: TBD
- - **LCD**: TBD
+ - **Ethernet**: 10/100M
  - **USB**: Host/Dev X2
  - **GPIO**: TBD
 
