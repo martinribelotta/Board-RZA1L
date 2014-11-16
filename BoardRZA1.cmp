@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 15 nov 2014 15:03:23 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 15 nov 2014 17:57:09 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -509,6 +509,13 @@ TimeStamp = /5466BBA4;
 Reference = J1;
 ValeurCmp = HR911105A;
 IdModule  = RJ45:RJ45_Pulse_J403-A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468523A;
+Reference = J2;
+ValeurCmp = SIL38;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x38;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=jue 13 nov 2014 23:59:59 ART
+update=sáb 15 nov 2014 21:27:48 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,8 +25,6 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -71,3 +69,6 @@ LibName37=ba3259hfp
 LibName38=bu42xx
 LibName39=KSZ8041MLL
 LibName40=hr911105a
+LibName41=sil40
+[general]
+version=1

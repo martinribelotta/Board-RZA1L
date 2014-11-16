@@ -11,7 +11,7 @@ Hardware
  - **Flash**: 16/32M QSPI FLASH
  - **Ethernet**: 10/100M
  - **USB**: Host/Dev X2
- - **GPIO**: TBD
+ - **GPIO**: 36 GPIO
 
 Preview
 -------
