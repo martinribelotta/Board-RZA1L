@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 15 nov 2014 17:57:09 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 15 nov 2014 22:38:08 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -505,6 +505,34 @@ IdModule  = Connect:BARREL_JACK;
 EndCmp
 
 BeginCmp
+TimeStamp = /5468F30D;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54691C11;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546923EF;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5469254C;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5466BBA4;
 Reference = J1;
 ValeurCmp = HR911105A;
@@ -883,9 +911,79 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5468BF93;
+Reference = R42;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468A3E5;
+Reference = R43;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54690C4C;
+Reference = R44;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468CA01;
+Reference = R45;
+ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54691C0B;
+Reference = R46;
+ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /546923E9;
+Reference = R47;
+ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54692546;
+Reference = R48;
+ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /545FB343;
 Reference = SW1;
 ValeurCmp = RESET;
+IdModule  = PushButton:RigthAnglePush;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468BE53;
+Reference = SW2;
+ValeurCmp = NMI;
+IdModule  = PushButton:RigthAnglePush;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468A3DF;
+Reference = SW3;
+ValeurCmp = SW0;
+IdModule  = PushButton:RigthAnglePush;
+EndCmp
+
+BeginCmp
+TimeStamp = /5468C9FB;
+Reference = SW4;
+ValeurCmp = SW1;
 IdModule  = PushButton:RigthAnglePush;
 EndCmp
 
