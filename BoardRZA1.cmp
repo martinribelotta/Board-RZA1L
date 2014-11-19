@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = sáb 15 nov 2014 22:38:08 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = mar 18 nov 2014 21:27:26 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -463,16 +463,9 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5466FE7E;
+TimeStamp = /546AB67A;
 Reference = C66;
-ValeurCmp = 22p;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5466FA33;
-Reference = C67;
-ValeurCmp = 22p;
+ValeurCmp = 100n;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
@@ -484,10 +477,10 @@ IdModule  = Connect:USB_MINI_B;
 EndCmp
 
 BeginCmp
-TimeStamp = /5457C33A;
+TimeStamp = /546BEA89;
 Reference = CON2;
-ValeurCmp = USB-MINI-B;
-IdModule  = Connect:USB_MINI_B;
+ValeurCmp = USB-A-PCB;
+IdModule  = Connect:USB_A;
 EndCmp
 
 BeginCmp
@@ -960,6 +953,13 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /546AB686;
+Reference = R49;
+ValeurCmp = 220R;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /545FB343;
 Reference = SW1;
 ValeurCmp = RESET;
@@ -1044,17 +1044,17 @@ IdModule  = smd_qfp:LQFP48-M05;
 EndCmp
 
 BeginCmp
+TimeStamp = /546AB667;
+Reference = U9;
+ValeurCmp = OSC_4PIN;
+IdModule  = OSC_4PIN:OSC_4PIN;
+EndCmp
+
+BeginCmp
 TimeStamp = /54558A45;
 Reference = X1;
 ValeurCmp = 32.768k;
 IdModule  = Crystals:Crystal_Round_Vertical_3mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /5466F768;
-Reference = X2;
-ValeurCmp = 20MHz;
-IdModule  = Crystals:Crystal_HC49-SD_SMD;
 EndCmp
 
 EndListe
