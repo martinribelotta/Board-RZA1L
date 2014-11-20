@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = mar 18 nov 2014 21:27:26 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = mié 19 nov 2014 21:41:00 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -526,6 +526,20 @@ IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /546D50B2;
+Reference = D5;
+ValeurCmp = MBRA210;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /546D7C8E;
+Reference = D6;
+ValeurCmp = MBRA210;
+IdModule  = Diodes_SMD:Diode-SMA_Standard;
+EndCmp
+
+BeginCmp
 TimeStamp = /5466BBA4;
 Reference = J1;
 ValeurCmp = HR911105A;
@@ -613,7 +627,7 @@ BeginCmp
 TimeStamp = /5456F0E8;
 Reference = P1;
 ValeurCmp = CONN_5X2;
-IdModule  = Pin_Headers:Pin_Header_Straight_2x05;
+IdModule  = Connect:VASCH5x2;
 EndCmp
 
 BeginCmp
