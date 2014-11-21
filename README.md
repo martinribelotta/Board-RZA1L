@@ -11,7 +11,7 @@ Hardware
  - **Flash**: 16/32M QSPI FLASH
  - **Ethernet**: 10/100M
  - **USB**: Host/Dev X2
- - **GPIO**: 36 GPIO
+ - **GPIO**: 36 GPIO + 4 LED + 2 Button
 
 Preview
 -------
@@ -19,6 +19,8 @@ Preview
 Top view
 
 ![Top](doc/BoardRZA1-top.png)
+
+![Top](doc/BoardRZA1-top2.png)
 
 Bottom view
 
