@@ -1,0 +1,29 @@
+ERC report (lun 24 nov 2014 18:56:12 ART)
+
+***** Hoja /
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (212,09mm,308,61mm): Pin 1 (power_in) of component #PWR062 is not driven (Net 20).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (643,89mm,219,71mm): Pin 170 (power_in) of component U1 is not driven (Net 34).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (554,99mm,219,71mm): Pin 172 (power_in) of component U1 is not driven (Net 35).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (377,19mm,48,26mm): Pin 1 (power_in) of component U6 is not driven (Net 37).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (778,51mm,265,43mm): Pin 1 (power_in) of component CON1 is not driven (Net 38).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (552,45mm,219,71mm): Pin 181 (power_in) of component U1 is not driven (Net 97).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (638,81mm,219,71mm): Pin 184 (power_in) of component U1 is not driven (Net 99).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (636,27mm,219,71mm): Pin 182 (power_in) of component U1 is not driven (Net 100).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (633,73mm,219,71mm): Pin 85 (power_in) of component U1 is not driven (Net 101).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (615,95mm,219,71mm): Pin 143 (power_in) of component U1 is not driven (Net 102).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (577,85mm,219,71mm): Pin 78 (power_in) of component U1 is not driven (Net 103).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (560,07mm,219,71mm): Pin 102 (power_in) of component U1 is not driven (Net 109).
+
+ >> Errores ERC: 0
