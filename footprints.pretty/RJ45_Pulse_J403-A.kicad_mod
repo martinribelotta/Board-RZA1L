@@ -1,10 +1,10 @@
-(module RJ45_Pulse_J403-A (layer F.Cu) (tedit 541201CE)
+(module RJ45:RJ45_Pulse_J403-A (layer F.Cu) (tedit 541201CE)
   (descr "CONN MAGJACK 1PORT 100 BASE-TX")
   (tags RJ45)
-  (fp_text reference J301 (at 8.731 9.979 90) (layer F.SilkS)
+  (fp_text reference J1 (at 8.731 9.979 90) (layer F.SilkS)
     (effects (font (size 0.7112 0.4572) (thickness 0.1143)))
   )
-  (fp_text value ETHERNET (at 0 -11.43) (layer F.SilkS) hide
+  (fp_text value HR911105A (at 0 -11.43) (layer F.SilkS) hide
     (effects (font (size 0.762 0.762) (thickness 0.127)))
   )
   (fp_line (start 8.128 -10.795) (end 8.128 -7.874) (layer Dwgs.User) (width 0.127))
@@ -32,9 +32,9 @@
   (pad 10 thru_hole circle (at 3.7846 -3.3782 180) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
   (pad 11 thru_hole circle (at -3.7846 -4.9022 180) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
   (pad 12 thru_hole circle (at -6.3246 -3.3782 180) (size 1.651 1.651) (drill 1.016) (layers *.Cu *.Mask))
-  (model packages3d/RJ45_8.wrl
+  (model Connectors/RJ45_8.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 0 0 180))
   )
 )

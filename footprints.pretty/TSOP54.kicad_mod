@@ -1,0 +1,8 @@
+(module TSOP54 (layer F.Cu) (tedit 547B90E7)
+  (fp_text reference TSOP54 (at 0 -7.25) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 -8.75) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
