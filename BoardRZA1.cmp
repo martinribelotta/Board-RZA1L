@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = dom 30 nov 2014 19:50:13 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = jue 04 dic 2014 00:08:35 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -705,6 +705,118 @@ TimeStamp = /5456F0E8;
 Reference = P1;
 ValeurCmp = CONN_5X2;
 IdModule  = footprints:VASCH5x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /548010CB;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /548140FD;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /548010C5;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /54816A6D;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /548010DD;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /548010E9;
+Reference = P7;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /548010E3;
+Reference = P8;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /548010BF;
+Reference = P9;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FD5FD;
+Reference = P10;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FDDE9;
+Reference = P11;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FDED7;
+Reference = P12;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FDEDD;
+Reference = P13;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FE21F;
+Reference = P14;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FE225;
+Reference = P15;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FE22B;
+Reference = P16;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /547FE231;
+Reference = P17;
+ValeurCmp = CONN_1;
+IdModule  = Connect:PINTST;
 EndCmp
 
 BeginCmp
