@@ -4926,4 +4926,12 @@ F 3 "" H 17500 6300 60  0000 C CNN
 $EndComp
 Text Label 17350 6300 2    60   ~ 0
 RAM_CLK
+Text Label 28000 17150 0    60   ~ 0
+MD_CLKS
+Text Label 28000 17250 0    60   ~ 0
+DM_CLK
+Text Label 28000 17350 0    60   ~ 0
+MD_BOOT1
+Text Label 28000 17450 0    60   ~ 0
+MD_BOOT0
 $EndSCHEMATC
