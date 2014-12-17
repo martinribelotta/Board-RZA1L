@@ -21,6 +21,11 @@ Hardware
      - **8 IRQ inputs**
      - **1 Serial Sound Interface (SSI)**
 
+Block Diagram
+-------------
+
+![Block Diagram](doc/schema.png)
+
 Preview
 -------
 
