@@ -2695,9 +2695,9 @@ P7_10
 Text Label 18650 14350 2    60   ~ 0
 P7_11
 Text Label 18650 14450 2    60   ~ 0
-P7_12
+P8_12
 Text Label 18650 14550 2    60   ~ 0
-P7_13
+P8_13
 Text Label 8100 10850 0    60   ~ 0
 P7_8
 Text Label 8100 10750 0    60   ~ 0
@@ -2706,10 +2706,6 @@ Text Label 8100 10650 0    60   ~ 0
 P7_10
 Text Label 8100 10550 0    60   ~ 0
 P7_11
-Text Label 8100 10450 0    60   ~ 0
-P7_12
-Text Label 8100 10350 0    60   ~ 0
-P7_13
 Text Label 18650 11950 2    60   ~ 0
 P6_6
 Text Label 18650 12050 2    60   ~ 0
@@ -3399,7 +3395,7 @@ F 1 "CONN_1" H 34700 1655 30  0001 C CNN
 F 2 "Connect:PINTST" H 34700 1600 60  0001 C CNN
 F 3 "" H 34700 1600 60  0000 C CNN
 	1    34700 1600
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L CONN_1 P9
@@ -4934,4 +4930,36 @@ Text Label 28000 17350 0    60   ~ 0
 MD_BOOT1
 Text Label 28000 17450 0    60   ~ 0
 MD_BOOT0
+Text Label 8100 10450 0    60   ~ 0
+P8_12
+Text Label 8100 10350 0    60   ~ 0
+P8_13
+Text Label 16700 14050 2    60   ~ 0
+P8_12
+Text Label 16700 14250 2    60   ~ 0
+P8_13
+$Comp
+L VSS #PWR082
+U 1 1 54919CCD
+P 16350 14150
+F 0 "#PWR082" H 16350 14150 30  0001 C CNN
+F 1 "VSS" H 16350 14080 30  0000 C CNN
+F 2 "" H 16350 14150 60  0000 C CNN
+F 3 "" H 16350 14150 60  0000 C CNN
+	1    16350 14150
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_3 K1
+U 1 1 5490F5C6
+P 17050 14150
+F 0 "K1" V 17000 14150 50  0000 C CNN
+F 1 "CONN_3" V 17100 14150 40  0000 C CNN
+F 2 "Connect:SIL-3" H 17050 14150 60  0001 C CNN
+F 3 "" H 17050 14150 60  0000 C CNN
+	1    17050 14150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16350 14150 16700 14150
 $EndSCHEMATC
