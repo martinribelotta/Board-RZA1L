@@ -16,15 +16,20 @@
     <data key="d7"/>
     <node id="n0" yfiles.foldertype="group">
       <data key="d4"/>
-      <data key="d5"/>
       <data key="d6">
         <y:ProxyAutoBoundsNode>
           <y:Realizers active="0">
             <y:GroupNode>
               <y:Geometry height="527.9403983999998" width="720.0" x="116.5" y="10.0"/>
-              <y:Fill color="#CAECFF84" transparent="false"/>
-              <y:BorderStyle color="#666699" type="line" width="4.0"/>
-              <y:NodeLabel alignment="right" autoSizePolicy="node_width" backgroundColor="#99CCFF" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="internal" modelPosition="t" textColor="#000000" visible="false" width="720.0" x="0.0" y="0.0">Group 1</y:NodeLabel>
+              <y:Fill color="#C0C0C0" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="4.0"/>
+              <y:NodeLabel alignment="left" autoSizePolicy="node_width" backgroundColor="#C0C0C0" borderDistance="0.0" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasLineColor="false" height="21.4609375" modelName="custom" textColor="#000000" visible="true" width="720.0" x="0.0" y="0.0">Board RZ/A1L<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="0.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="-0.5" nodeRatioX="-0.5" nodeRatioY="-0.5" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
               <y:Shape type="roundrectangle"/>
               <y:State closed="false" closedHeight="50.0" closedWidth="50.0" innerGraphDisplayEnabled="false"/>
               <y:Insets bottom="15" bottomF="15.0" left="15" leftF="15.0" right="15" rightF="15.0" top="15" topF="15.0"/>
@@ -45,13 +50,12 @@
       </data>
       <graph edgedefault="directed" id="n0:">
         <node id="n0::n0">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNodeWithShadow">
               <y:Geometry height="248.0" width="248.0" x="387.0" y="137.0"/>
-              <y:Fill color="#333333" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#FFFFFF" visible="true" width="124.59765625" x="61.701171875" y="94.0625">RZ/A1L
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="59.875" modelName="custom" textColor="#000000" visible="true" width="124.59765625" x="61.701171875" y="94.0625">RZ/A1L
 LQFP208
 
 Cortex-A9@400MHz<y:LabelModel>
@@ -65,13 +69,12 @@ Cortex-A9@400MHz<y:LabelModel>
           </data>
         </node>
         <node id="n0::n1">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="59.0" width="79.0" x="150.0" y="68.50000000000001"/>
-              <y:Fill color="#339966" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="58.24609375" x="10.376953125" y="13.53125">KSZ8049
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="58.24609375" x="10.376953125" y="13.53125">KSZ8041
 ETH PHY<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -83,30 +86,11 @@ ETH PHY<y:LabelModel>
           </data>
         </node>
         <node id="n0::n2">
-          <data key="d5"/>
-          <data key="d6">
-            <y:GenericNode configuration="BevelNode3">
-              <y:Geometry height="59.0" width="116.0" x="131.5" y="157.5"/>
-              <y:Fill color="#3366FF" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="103.251953125" x="6.3740234375" y="13.53125">RJ45
-JACK+Magnetics<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n3">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="54.0" width="79.0" x="742.5" y="331.0"/>
-              <y:Fill color="#FFFF00" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="37.416015625" x="20.7919921875" y="11.03125">USB
 HOST<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -118,13 +102,12 @@ HOST<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n4">
-          <data key="d5"/>
+        <node id="n0::n3">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="54.0" width="79.0" x="742.5" y="270.0"/>
-              <y:Fill color="#FFFF00" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="29.03125" x="24.984375" y="11.03125">USB
 DEV<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -136,14 +119,13 @@ DEV<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n5">
-          <data key="d5"/>
+        <node id="n0::n4">
           <data key="d6">
             <y:GenericNode configuration="BevelNode3">
               <y:Geometry height="46.0" width="79.0" x="742.5" y="25.0"/>
-              <y:Fill color="#000000" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#FFFFFF" visible="true" width="40.708984375" x="19.1455078125" y="7.03125">Power
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="40.708984375" x="19.1455078125" y="7.03125">Power
 JACK<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -154,16 +136,31 @@ JACK<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n6">
-          <data key="d5"/>
+        <node id="n0::n5">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNodeWithShadow">
               <y:Geometry height="59.0" width="48.19808000000012" x="694.3019199999999" y="153.0"/>
-              <y:Fill color="#FF99CC" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="45.90625" modelName="custom" textColor="#000000" visible="true" width="42.4375" x="2.880290000000059" y="6.546875">QSPI
 FLASH
-64M<y:LabelModel>
+32M<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n6">
+          <data key="d6">
+            <y:GenericNode configuration="ShinyPlateNodeWithShadow">
+              <y:Geometry height="30.0" width="147.49791999999997" x="487.50208" y="432.9403983999999"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="77.1953125" x="35.15130375000001" y="6.015625">SDRAM 32M<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -174,30 +171,12 @@ FLASH
           </data>
         </node>
         <node id="n0::n7">
-          <data key="d5"/>
-          <data key="d6">
-            <y:GenericNode configuration="ShinyPlateNodeWithShadow">
-              <y:Geometry height="30.0" width="147.49791999999997" x="487.50208" y="432.9403983999999"/>
-              <y:Fill color="#333333" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#FFFFFF" visible="true" width="77.1953125" x="35.15130375000001" y="6.015625">SDRAM 32M<y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n8">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNodeWithShadow">
               <y:Geometry height="46.0" width="79.0" x="742.5" y="89.0"/>
-              <y:Fill color="#800000" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#FFFFFF" visible="true" width="62.611328125" x="8.1943359375" y="7.03125">POWER
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="62.611328125" x="8.1943359375" y="7.03125">POWER
 Regulator<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -208,13 +187,12 @@ Regulator<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n9">
-          <data key="d5"/>
+        <node id="n0::n8">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNodeWithShadow">
               <y:Geometry height="30.0" width="79.0" x="387.0" y="25.0"/>
-              <y:Fill color="#3366FF" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="58.837890625" x="10.0810546875" y="6.015625">SD CARD<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -225,13 +203,12 @@ Regulator<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n10">
-          <data key="d5"/>
+        <node id="n0::n9">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="30.0" width="690.0" x="131.5" y="492.9403983999999"/>
-              <y:Fill color="#00FF00" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="87.30859375" x="301.345703125" y="6.015624999999943">GPIO HEADER<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -242,13 +219,12 @@ Regulator<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n11">
-          <data key="d5"/>
+        <node id="n0::n10">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="30.0" width="45.0" x="697.5" y="226.00000000000003"/>
-              <y:Fill color="#66FF33" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="44.9453125" x="0.02734375" y="6.015625">48MHz<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -259,13 +235,12 @@ Regulator<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n12">
-          <data key="d5"/>
+        <node id="n0::n11">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="30.0" width="58.60000000000002" x="281.15" y="137.0"/>
-              <y:Fill color="#66FF33" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="44.9453125" x="6.827343750000011" y="6.015625">13MHz<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -276,13 +251,12 @@ Regulator<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n13">
-          <data key="d5"/>
+        <node id="n0::n12">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="30.0" width="58.60000000000002" x="281.15" y="172.0"/>
-              <y:Fill color="#66FF33" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="54.794921875" x="1.9025390625000114" y="6.015625">RTC CLK<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -293,13 +267,12 @@ Regulator<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n14">
-          <data key="d5"/>
+        <node id="n0::n13">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="38.0" width="58.60000000000002" x="281.15" y="211.0"/>
-              <y:Fill color="#999999" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="42.501953125" x="8.049023437500011" y="3.03125">BOOT
 Config<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -311,14 +284,13 @@ Config<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n15">
-          <data key="d5"/>
+        <node id="n0::n14">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="30.0" width="58.60000000000002" x="481.70000000000005" y="25.0"/>
-              <y:Fill color="#FFFF99" transparent="false"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="35.125" x="11.737499999999955" y="6.015625">LEDS<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="35.125" x="11.737500000000011" y="6.015625">LEDS<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -328,12 +300,11 @@ Config<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n16">
-          <data key="d5"/>
+        <node id="n0::n15">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="30.0" width="58.60000000000002" x="570.3000000000001" y="25.0"/>
-              <y:Fill color="#FFFF99" transparent="false"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="50.447265625" x="4.076367187500068" y="6.015625">Buttons<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -345,13 +316,12 @@ Config<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n17">
-          <data key="d5"/>
+        <node id="n0::n16">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNodeWithShadow">
               <y:Geometry height="30.0" width="79.0" x="387.0" y="432.9403983999999"/>
-              <y:Fill color="#3366FF" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" textColor="#000000" visible="true" width="32.376953125" x="23.3115234375" y="6.015625">JTAG<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
@@ -362,13 +332,12 @@ Config<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n18">
-          <data key="d5"/>
+        <node id="n0::n17">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNodeWithShadow">
               <y:Geometry height="38.0" width="79.0" x="179.73055999999994" y="383.9701991999999"/>
-              <y:Fill color="#3366FF" transparent="false"/>
-              <y:BorderStyle hasColor="false" type="line" width="1.0"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="65.892578125" x="6.5537109375" y="3.03125">UART4
 Connector<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
@@ -380,12 +349,11 @@ Connector<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n19">
-          <data key="d5"/>
+        <node id="n0::n18">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="38.0" width="58.60000000000002" x="131.5" y="256.5"/>
-              <y:Fill color="#FFFF99" transparent="false"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="43.580078125" x="7.509960937500011" y="3.03125">Reset
 button<y:LabelModel>
@@ -398,12 +366,11 @@ button<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n20">
-          <data key="d5"/>
+        <node id="n0::n19">
           <data key="d6">
             <y:GenericNode configuration="ShinyPlateNode3">
               <y:Geometry height="38.0" width="58.60000000000002" x="131.5" y="308.0"/>
-              <y:Fill color="#FFFF99" transparent="false"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="43.580078125" x="7.509960937500011" y="3.03125">NMI
 button<y:LabelModel>
@@ -416,12 +383,11 @@ button<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n21">
-          <data key="d5"/>
+        <node id="n0::n20">
           <data key="d6">
             <y:ShapeNode>
               <y:Geometry height="4.604799999999955" width="4.604799999999955" x="322.4476" y="400.66779919999993"/>
-              <y:Fill color="#000000" transparent="false"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="0.30239999999997735" y="0.30239999999997735">
                 <y:LabelModel>
@@ -435,21 +401,28 @@ button<y:LabelModel>
             </y:ShapeNode>
           </data>
         </node>
+        <node id="n0::n21">
+          <data key="d5"/>
+          <data key="d6">
+            <y:ShapeNode>
+              <y:Geometry height="71.0" width="97.5" x="131.5" y="171.99999999999997"/>
+              <y:Fill color="#FFFFFF" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="31.9375" modelName="custom" textColor="#000000" visible="true" width="55.90234375" x="20.798828125" y="19.53125">RJ45
+Ethernet<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:Shape type="roundrectangle"/>
+            </y:ShapeNode>
+          </data>
+        </node>
       </graph>
     </node>
-    <edge id="n0::e0" source="n0::n1" target="n0::n2">
-      <data key="d9"/>
-      <data key="d10">
-        <y:PolyLineEdge>
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="standard" target="standard"/>
-          <y:BendStyle smoothed="false"/>
-        </y:PolyLineEdge>
-      </data>
-    </edge>
-    <edge id="n0::e1" source="n0::n0" target="n0::n1">
-      <data key="d9"/>
+    <edge id="n0::e0" source="n0::n0" target="n0::n1">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-100.63999999999993" sy="0.0" tx="0.0" ty="0.0">
@@ -461,8 +434,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e2" source="n0::n4" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e1" source="n0::n3" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="67.75" ty="36.0"/>
@@ -472,8 +444,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e3" source="n0::n0" target="n0::n3">
-      <data key="d9"/>
+    <edge id="n0::e2" source="n0::n0" target="n0::n2">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="97.0" tx="0.0" ty="0.0"/>
@@ -483,8 +454,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e4" source="n0::n0" target="n0::n6">
-      <data key="d9"/>
+    <edge id="n0::e3" source="n0::n0" target="n0::n5">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="93.42452000000003" sy="-78.5" tx="0.0" ty="0.0"/>
@@ -494,8 +464,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e5" source="n0::n0" target="n0::n7">
-      <data key="d9"/>
+    <edge id="n0::e4" source="n0::n0" target="n0::n6">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="50.25103999999999" sy="109.375" tx="0.0" ty="0.0"/>
@@ -505,8 +474,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e6" source="n0::n5" target="n0::n8">
-      <data key="d9"/>
+    <edge id="n0::e5" source="n0::n4" target="n0::n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -516,8 +484,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e7" source="n0::n4" target="n0::n8">
-      <data key="d9"/>
+    <edge id="n0::e6" source="n0::n3" target="n0::n7">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -527,8 +494,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e8" source="n0::n8" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e7" source="n0::n7" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="9.600000000000023" tx="94.83103999999992" ty="-100.90784000000016">
@@ -540,8 +506,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e9" source="n0::n8" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e8" source="n0::n7" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-6.307840000000169" tx="59.63103999999987" ty="-95.30784000000017">
@@ -553,8 +518,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e10" source="n0::n0" target="n0::n10">
-      <data key="d9"/>
+    <edge id="n0::e9" source="n0::n0" target="n0::n9">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="68.79999999999995" tx="-151.10977200000002" ty="-2.3999999999999773">
@@ -566,8 +530,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e11" source="n0::n11" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e10" source="n0::n10" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="107.19022799999993" ty="-19.99999999999997"/>
@@ -577,8 +540,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e12" source="n0::n12" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e11" source="n0::n11" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-122.07988599999999" ty="-109.0"/>
@@ -588,8 +550,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e13" source="n0::n13" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e12" source="n0::n12" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-100.0" ty="-74.0"/>
@@ -599,8 +560,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e14" source="n0::n14" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e13" source="n0::n13" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-105.60977200000002" ty="-31.0"/>
@@ -610,8 +570,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e15" source="n0::n16" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e14" source="n0::n15" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="25.399999999999864" ty="-122.58572000000015">
@@ -624,8 +583,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e16" source="n0::n17" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e15" source="n0::n16" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-84.5" ty="121.72019919999991"/>
@@ -635,8 +593,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e17" source="n0::n19" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e16" source="n0::n18" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-88.5" ty="14.5"/>
@@ -646,8 +603,7 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e18" source="n0::n0" target="n0::n15">
-      <data key="d9"/>
+    <edge id="n0::e17" source="n0::n0" target="n0::n14">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -660,19 +616,17 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e19" source="n0::n0" target="n0::n9">
-      <data key="d9"/>
+    <edge id="n0::e18" source="n0::n0" target="n0::n8">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="-82.34879999999981" sy="-110.5" tx="2.1512000000001876" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="standard"/>
+          <y:LineStyle color="#000000" type="line" width="3.0"/>
+          <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e20" source="n0::n20" target="n0::n0">
-      <data key="d9"/>
+    <edge id="n0::e19" source="n0::n19" target="n0::n0">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="-107.5" ty="28.5">
@@ -685,11 +639,21 @@ button<y:LabelModel>
         </y:PolyLineEdge>
       </data>
     </edge>
-    <edge id="n0::e21" source="n0::n18" target="n0::n21">
-      <data key="d9"/>
+    <edge id="n0::e20" source="n0::n17" target="n0::n20">
       <data key="d10">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="standard" target="standard"/>
+          <y:BendStyle smoothed="false"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="n0::e21" source="n0::n1" target="n0::n21">
+      <data key="d9"/>
+      <data key="d10">
+        <y:PolyLineEdge>
+          <y:Path sx="0.0" sy="0.0" tx="9.25" ty="0.0"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="standard" target="standard"/>
           <y:BendStyle smoothed="false"/>
