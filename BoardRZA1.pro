@@ -1,4 +1,4 @@
-update=sáb 20 dic 2014 15:50:26 ART
+update=lun 12 ene 2015 19:08:35 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -30,13 +30,6 @@ BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibDir=
+[eeschema/libraries]
+LibName1=BoardRZA1
