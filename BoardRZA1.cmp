@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = mié 25 feb 2015 20:49:45 ART
+Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = mar 03 mar 2015 00:52:05 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -533,10 +533,10 @@ IdModule  = footprints:DB_15F-VGA;
 EndCmp
 
 BeginCmp
-TimeStamp = /5468523A;
+TimeStamp = /54F544B6;
 Reference = J2;
-ValeurCmp = SIL38;
-IdModule  = footprints:Pin_Header_Angled_1x38;
+ValeurCmp = SUPP32;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x32;
 EndCmp
 
 BeginCmp

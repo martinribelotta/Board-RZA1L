@@ -1865,35 +1865,24 @@ $EndComp
 $Comp
 L VSS #PWR048
 U 1 1 546806AB
-P 8350 12150
-F 0 "#PWR048" H 8350 12150 30  0001 C CNN
-F 1 "VSS" H 8350 12080 30  0000 C CNN
-F 2 "" H 8350 12150 60  0000 C CNN
-F 3 "" H 8350 12150 60  0000 C CNN
-	1    8350 12150
-	1    0    0    -1  
+P 9300 8800
+F 0 "#PWR048" H 9300 8800 30  0001 C CNN
+F 1 "VSS" H 9300 8730 30  0000 C CNN
+F 2 "" H 9300 8800 60  0000 C CNN
+F 3 "" H 9300 8800 60  0000 C CNN
+	1    9300 8800
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR049
 U 1 1 54681794
-P 8200 8100
-F 0 "#PWR049" H 8200 8060 30  0001 C CNN
-F 1 "+3.3V" H 8200 8210 30  0000 C CNN
-F 2 "" H 8200 8100 60  0000 C CNN
-F 3 "" H 8200 8100 60  0000 C CNN
-	1    8200 8100
+P 11100 8450
+F 0 "#PWR049" H 11100 8410 30  0001 C CNN
+F 1 "+3.3V" H 11100 8560 30  0000 C CNN
+F 2 "" H 11100 8450 60  0000 C CNN
+F 3 "" H 11100 8450 60  0000 C CNN
+	1    11100 8450
 	1    0    0    -1  
-$EndComp
-$Comp
-L SIL38 J2
-U 1 1 5468523A
-P 7650 10200
-F 0 "J2" H 7650 10150 60  0000 C CNN
-F 1 "SIL38" H 7650 10250 60  0000 C CNN
-F 2 "footprints:Pin_Header_Angled_1x38" H 7650 10200 60  0001 C CNN
-F 3 "" H 7650 10200 60  0000 C CNN
-	1    7650 10200
-	-1   0    0    -1  
 $EndComp
 Text Label 27950 13350 0    60   ~ 0
 P1_0
@@ -1911,21 +1900,21 @@ Text Label 27950 12750 0    60   ~ 0
 P1_6
 Text Label 27950 12650 0    60   ~ 0
 P1_7
-Text Label 8100 9450 0    60   ~ 0
+Text Label 11000 9800 0    60   ~ 0
 P1_0
-Text Label 8100 9350 0    60   ~ 0
+Text Label 11000 9700 0    60   ~ 0
 P1_1
-Text Label 8100 9250 0    60   ~ 0
+Text Label 11000 9600 0    60   ~ 0
 P1_2
-Text Label 8100 9150 0    60   ~ 0
+Text Label 11000 9500 0    60   ~ 0
 P1_3
-Text Label 8100 9050 0    60   ~ 0
+Text Label 11000 9400 0    60   ~ 0
 P1_4
-Text Label 8100 8950 0    60   ~ 0
+Text Label 11000 9300 0    60   ~ 0
 P1_5
-Text Label 8100 8850 0    60   ~ 0
+Text Label 11000 9200 0    60   ~ 0
 P1_6
-Text Label 8100 8750 0    60   ~ 0
+Text Label 11000 9100 0    60   ~ 0
 P1_7
 Text Label 27950 12550 0    60   ~ 0
 P3_15
@@ -1936,13 +1925,13 @@ P2_8
 Text Label 27950 12150 0    60   ~ 0
 P2_9
 NoConn ~ 27950 11850
-Text Label 8100 8550 0    60   ~ 0
+Text Label 11000 8900 0    60   ~ 0
 P2_7
-Text Label 8100 8450 0    60   ~ 0
+Text Label 11000 8800 0    60   ~ 0
 P2_8
-Text Label 8100 8350 0    60   ~ 0
+Text Label 11000 8700 0    60   ~ 0
 P2_9
-Text Label 8100 8650 0    60   ~ 0
+Text Label 11000 9000 0    60   ~ 0
 P3_15
 Text Label 18650 17450 2    60   ~ 0
 P1_15
@@ -1960,21 +1949,21 @@ Text Label 18650 16850 2    60   ~ 0
 P1_9
 Text Label 18650 16750 2    60   ~ 0
 P1_8
-Text Label 8100 9950 0    60   ~ 0
+Text Label 9800 10000 2    60   ~ 0
 P1_15
-Text Label 8100 10050 0    60   ~ 0
+Text Label 9800 9900 2    60   ~ 0
 P1_14
-Text Label 8100 10150 0    60   ~ 0
+Text Label 9800 9800 2    60   ~ 0
 P1_13
-Text Label 8100 10250 0    60   ~ 0
+Text Label 9800 9700 2    60   ~ 0
 P1_12
-Text Label 8100 10350 0    60   ~ 0
+Text Label 9800 9600 2    60   ~ 0
 P1_11
-Text Label 8100 10450 0    60   ~ 0
+Text Label 9800 9500 2    60   ~ 0
 P1_10
-Text Label 8100 10550 0    60   ~ 0
+Text Label 9800 9400 2    60   ~ 0
 P1_9
-Text Label 8100 10650 0    60   ~ 0
+Text Label 9800 9300 2    60   ~ 0
 P1_8
 $Comp
 L SW_PUSH SW2
@@ -2023,13 +2012,13 @@ Text Label 18650 14450 2    60   ~ 0
 P8_12
 Text Label 18650 14550 2    60   ~ 0
 P8_13
-Text Label 8100 11250 0    60   ~ 0
+Text Label 9800 8700 2    60   ~ 0
 P7_8
-Text Label 8100 11150 0    60   ~ 0
+Text Label 9800 8800 2    60   ~ 0
 P7_9
-Text Label 8100 11050 0    60   ~ 0
+Text Label 9800 8900 2    60   ~ 0
 P7_10
-Text Label 8100 10950 0    60   ~ 0
+Text Label 9800 9000 2    60   ~ 0
 P7_11
 Text Label 18650 14850 2    60   ~ 0
 LED0
@@ -2710,9 +2699,9 @@ Text Label 28000 17350 0    60   ~ 0
 MD_BOOT1
 Text Label 28000 17450 0    60   ~ 0
 MD_BOOT0
-Text Label 8100 10850 0    60   ~ 0
+Text Label 9800 9100 2    60   ~ 0
 P8_12
-Text Label 8100 10750 0    60   ~ 0
+Text Label 9800 9200 2    60   ~ 0
 P8_13
 Text Label 16700 14050 2    60   ~ 0
 P8_12
@@ -3772,13 +3761,13 @@ Wire Wire Line
 	16800 3700 16700 3700
 Connection ~ 16800 3900
 Wire Wire Line
-	8350 12150 8350 11950
+	9300 8800 9300 8600
 Wire Wire Line
-	8350 11950 8100 11950
+	9300 8600 9800 8600
 Wire Wire Line
-	8200 8100 8200 8250
+	11100 8450 11100 8600
 Wire Wire Line
-	8200 8250 8100 8250
+	11100 8600 11000 8600
 Wire Wire Line
 	15250 3050 15350 3050
 Wire Wire Line
@@ -4522,12 +4511,23 @@ Text Label 27950 14250 0    60   ~ 0
 P9_4
 Text Label 27950 14150 0    60   ~ 0
 P9_5
-Text Label 8100 9850 0    60   ~ 0
+Text Label 9800 10100 2    60   ~ 0
 P9_2
-Text Label 8100 9750 0    60   ~ 0
+Text Label 11000 10100 0    60   ~ 0
 P9_3
-Text Label 8100 9650 0    60   ~ 0
+Text Label 11000 10000 0    60   ~ 0
 P9_4
-Text Label 8100 9550 0    60   ~ 0
+Text Label 11000 9900 0    60   ~ 0
 P9_5
+$Comp
+L SUPP32 J2
+U 1 1 54F544B6
+P 10400 9350
+F 0 "J2" H 10400 10200 70  0000 C CNN
+F 1 "SUPP32" H 10400 8500 70  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Angled_1x32" H 10400 9350 60  0001 C CNN
+F 3 "" H 10400 9350 60  0000 C CNN
+	1    10400 9350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
