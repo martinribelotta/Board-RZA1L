@@ -1,4 +1,4 @@
-update=lun 12 ene 2015 19:08:35 ART
+update=mié 25 feb 2015 20:33:56 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -33,3 +33,7 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=BoardRZA1
+LibName2=device
+LibName3=linear
+LibName4=conn
+LibName5=vga
