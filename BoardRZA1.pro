@@ -1,4 +1,4 @@
-update=dom 08 mar 2015 20:11:23 ART
+update=lun 09 mar 2015 11:48:04 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,7 +40,7 @@ LibName5=vga
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=doc/shapes3D/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=

@@ -26,6 +26,11 @@ Block Diagram
 
 ![Block Diagram](doc/schema.png)
 
+Schematic
+---------
+
+![Schematic](doc/schematic.png)
+
 Preview
 -------
 
