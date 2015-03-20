@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-09-25 BZR 5147)-product   date = mar 03 mar 2015 00:52:05 ART
+Cmp-Mod V01 Created by Cvpcb 0.201503090816+5484~22~ubuntu14.04.1-product   date = jue 19 mar 2015 23:57:24 ART
 
 BeginCmp
 TimeStamp = /5455B1D5;
@@ -375,6 +375,41 @@ BeginCmp
 TimeStamp = /545FBDC1;
 Reference = C53;
 ValeurCmp = 1u;
+IdModule  = footprints:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D0DE4;
+Reference = C54;
+ValeurCmp = 100n;
+IdModule  = footprints:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D0C98;
+Reference = C55;
+ValeurCmp = 100n;
+IdModule  = footprints:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550D0AE8;
+Reference = C56;
+ValeurCmp = 100n;
+IdModule  = footprints:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C9954;
+Reference = C57;
+ValeurCmp = 100n;
+IdModule  = footprints:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C7485;
+Reference = C58;
+ValeurCmp = 100n;
 IdModule  = footprints:SM0805;
 EndCmp
 
@@ -869,44 +904,30 @@ IdModule  = footprints:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F0B694;
+TimeStamp = /550CB105;
 Reference = R21;
-ValeurCmp = 10k;
-IdModule  = footprints:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F094D1;
-Reference = R22;
-ValeurCmp = 10k;
-IdModule  = footprints:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F03A03;
-Reference = R23;
-ValeurCmp = 10k;
+ValeurCmp = 560R;
 IdModule  = footprints:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F207DD;
 Reference = R24;
-ValeurCmp = 280R;
+ValeurCmp = 75R;
 IdModule  = footprints:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F1FE0D;
 Reference = R25;
-ValeurCmp = 280R;
+ValeurCmp = 75R;
 IdModule  = footprints:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F1F2C7;
 Reference = R26;
-ValeurCmp = 280R;
+ValeurCmp = 75R;
 IdModule  = footprints:SM0805;
 EndCmp
 
@@ -971,48 +992,6 @@ TimeStamp = /546EFC3C;
 Reference = R51;
 ValeurCmp = 220R;
 IdModule  = footprints:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F0B68E;
-Reference = RP1;
-ValeurCmp = 20k;
-IdModule  = Resistors_SMD:r_cat16-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F094CB;
-Reference = RP2;
-ValeurCmp = 20k;
-IdModule  = Resistors_SMD:r_cat16-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F0187B;
-Reference = RP3;
-ValeurCmp = 20k;
-IdModule  = Resistors_SMD:r_cat16-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F0B688;
-Reference = RP4;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:r_cat16-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F094C5;
-Reference = RP5;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:r_cat16-8;
-EndCmp
-
-BeginCmp
-TimeStamp = /54F010EB;
-Reference = RP6;
-ValeurCmp = 10k;
-IdModule  = Resistors_SMD:r_cat16-8;
 EndCmp
 
 BeginCmp
@@ -1093,10 +1072,10 @@ IdModule  = footprints:SSOP-5;
 EndCmp
 
 BeginCmp
-TimeStamp = /54F0D2A4;
+TimeStamp = /550BA28D;
 Reference = U8;
-ValeurCmp = TL074;
-IdModule  = SMD_Packages:SO14E;
+ValeurCmp = ADV7125-lqfp48;
+IdModule  = Housings_QFP:lqfp-48;
 EndCmp
 
 BeginCmp
