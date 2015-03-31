@@ -29,7 +29,7 @@ Block Diagram
 Schematic
 ---------
 
-![Schematic](doc/schematic.png)
+![Schematic](doc/BoardRZA1.svg)
 
 Preview
 -------
