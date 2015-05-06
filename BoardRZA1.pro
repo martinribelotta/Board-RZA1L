@@ -1,4 +1,4 @@
-update=jue 23 abr 2015 10:48:32 ART
+update=dom 03 may 2015 15:13:00 ART
 version=1
 last_client=kicad
 [cvpcb]
@@ -28,16 +28,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=BoardRZA1
-LibName2=device
-LibName3=linear
-LibName4=conn
-LibName5=vga
-LibName6=ADV7125-lqfp48
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -51,3 +41,14 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=BoardRZA1
+LibName2=device
+LibName3=linear
+LibName4=conn
+LibName5=vga
+LibName6=ADV7125-lqfp48
+LibName7=regul

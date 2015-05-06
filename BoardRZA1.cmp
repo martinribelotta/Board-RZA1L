@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb 0.201503090816+5484~22~ubuntu14.04.1-product   date = vie 03 abr 2015 10:54:52 ART
+Cmp-Mod V01 Created by Cvpcb 0.201504081001+5582~22~ubuntu14.04.1-product   date = dom 03 may 2015 16:16:56 ART
 
 BeginCmp
 TimeStamp = /545387D5;
@@ -554,6 +554,13 @@ IdModule  = footprints:LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55319A0A;
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = footprints:LED-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54F14C31;
 Reference = J1;
 ValeurCmp = VGA;
@@ -869,20 +876,6 @@ IdModule  = footprints:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /545FF22E;
-Reference = R17;
-ValeurCmp = 1K;
-IdModule  = footprints:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /545FE304;
-Reference = R18;
-ValeurCmp = 2K1;
-IdModule  = footprints:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5458A81A;
 Reference = R19;
 ValeurCmp = 10k;
@@ -935,6 +928,13 @@ BeginCmp
 TimeStamp = /54F1F2C7;
 Reference = R26;
 ValeurCmp = 75R;
+IdModule  = footprints:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55319A04;
+Reference = R27;
+ValeurCmp = 1k;
 IdModule  = footprints:SM0805;
 EndCmp
 
@@ -1065,10 +1065,10 @@ IdModule  = footprints:TSOP_II_54;
 EndCmp
 
 BeginCmp
-TimeStamp = /545F9611;
+TimeStamp = /55466FA0;
 Reference = U6;
-ValeurCmp = BA3259HFP;
-IdModule  = footprints:Rohm-HRP5;
+ValeurCmp = NCP1117ST33T3G;
+IdModule  = w_smd_trans.pretty:sot223;
 EndCmp
 
 BeginCmp
@@ -1083,6 +1083,13 @@ TimeStamp = /550BA28D;
 Reference = U8;
 ValeurCmp = ADV7125-lqfp48;
 IdModule  = footprints:TQFP-48_Reflow;
+EndCmp
+
+BeginCmp
+TimeStamp = /55466EBE;
+Reference = U9;
+ValeurCmp = NCP1117ST12T3G;
+IdModule  = w_smd_trans.pretty:sot223;
 EndCmp
 
 BeginCmp
